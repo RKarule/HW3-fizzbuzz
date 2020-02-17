@@ -4,124 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fizz Buzz</title>
+    <script src="script/HW3-fizzbuzz.js" defer></script>
+    <link rel="stylesheet" href="style/HW3-fizzbuzz.css">
 </head>
 <body>
-    <main id="main-cont">
+    <h1>Fizz Buzz calculator</h1>
+    <hr>
+    <main id="container">
+        <div id="value-cont">
+            <h3>Min number: </h3><input id="startValue" type="number" value="1">
+            <h3>Max number: </h3><input id="endValue" type="number" value="100">
+        </div>
         <div id="menu-cont">
-            <h3>MIN value:</h3>
-            <input type="number" name="box" id="min-input" min="1" max="99">
-            <h3>MAX value:</h3>
-            <input type="number" name="box" id="max-input" min="2" max="100">
-            <hr>
-            <button id="reset-btn">Reset</button>
-            <button id="refresh-btn">Refresh</button>
-            <button id="fizz-btn">Fizz</button>
-            <button id="buzz-btn">Buzz</button>
-            <button id="fb-btn">Fizz Buzz</button>
-            <hr>
+            <button type="submit" id="result">Show result</button><br>
+            <button type="submit" id="clear">Clear all</button><br>
         </div>
-        <div id="result-cont">
-            <div class="result1"></div>
-            <div class="result2"></div>
-            <div class="result3"></div>
-            <div class="result4"></div>
-            <div class="result5"></div>
-            <div class="result6"></div>
-            <div class="result7"></div>
-            <div class="result8"></div>
-            <div class="result9"></div>
-            <div class="result10"></div>
-            <div class="result11"></div>
-            <div class="result12"></div>
-            <div class="result13"></div>
-            <div class="result14"></div>
-            <div class="result15"></div>
-            <div class="result16"></div>
-            <div class="result17"></div>
-            <div class="result18"></div>
-            <div class="result19"></div>
-            <div class="result20"></div>
-            <div class="result21"></div>
-            <div class="result22"></div>
-            <div class="result23"></div>
-            <div class="result24"></div>
-            <div class="result25"></div>
-            <div class="result26"></div>
-            <div class="result27"></div>
-            <div class="result28"></div>
-            <div class="result29"></div>
-            <div class="result30"></div>
-            <div class="result31"></div>
-            <div class="result32"></div>
-            <div class="result33"></div>
-            <div class="result34"></div>
-            <div class="result35"></div>
-            <div class="result36"></div>
-            <div class="result37"></div>
-            <div class="result38"></div>
-            <div class="result39"></div>
-            <div class="result40"></div>
-            <div class="result41"></div>
-            <div class="result42"></div>
-            <div class="result43"></div>
-            <div class="result44"></div>
-            <div class="result45"></div>
-            <div class="result46"></div>
-            <div class="result47"></div>
-            <div class="result48"></div>
-            <div class="result49"></div>
-            <div class="result50"></div>
-            <div class="result51"></div>
-            <div class="result52"></div>
-            <div class="result53"></div>
-            <div class="result54"></div>
-            <div class="result55"></div>
-            <div class="result56"></div>
-            <div class="result57"></div>
-            <div class="result58"></div>
-            <div class="result59"></div>
-            <div class="result60"></div>
-            <div class="result61"></div>
-            <div class="result62"></div>
-            <div class="result63"></div>
-            <div class="result64"></div>
-            <div class="result65"></div>
-            <div class="result66"></div>
-            <div class="result67"></div>
-            <div class="result68"></div>
-            <div class="result69"></div>
-            <div class="result70"></div>
-            <div class="result71"></div>
-            <div class="result72"></div>
-            <div class="result73"></div>
-            <div class="result74"></div>
-            <div class="result75"></div>
-            <div class="result76"></div>
-            <div class="result77"></div>
-            <div class="result78"></div>
-            <div class="result79"></div>
-            <div class="result80"></div>
-            <div class="result81"></div>
-            <div class="result82"></div>
-            <div class="result83"></div>
-            <div class="result84"></div>
-            <div class="result85"></div>
-            <div class="result86"></div>
-            <div class="result87"></div>
-            <div class="result88"></div>
-            <div class="result89"></div>
-            <div class="result90"></div>
-            <div class="result91"></div>
-            <div class="result92"></div>
-            <div class="result93"></div>
-            <div class="result94"></div>
-            <div class="result95"></div>
-            <div class="result96"></div>
-            <div class="result97"></div>
-            <div class="result98"></div>
-            <div class="result99"></div>
-            <div class="result100"></div>
-        </div>
+        <div id ="elements"></div>
     </main>
+
 </body>
 </html>
